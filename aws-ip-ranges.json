@@ -33631,6 +33631,12 @@
       "network_border_group": "us-gov-east-1"
     },
     {
+      "ip_prefix": "18.254.68.0/23",
+      "region": "us-gov-east-1",
+      "service": "API_GATEWAY",
+      "network_border_group": "us-gov-east-1"
+    },
+    {
       "ip_prefix": "15.200.141.0/25",
       "region": "us-gov-west-1",
       "service": "API_GATEWAY",
@@ -40024,6 +40030,12 @@
       "ip_prefix": "3.145.230.0/24",
       "region": "us-east-2",
       "service": "API_GATEWAY",
+      "network_border_group": "us-east-2"
+    },
+    {
+      "ip_prefix": "3.145.232.192/26",
+      "region": "us-east-2",
+      "service": "AMAZON",
       "network_border_group": "us-east-2"
     },
     {
