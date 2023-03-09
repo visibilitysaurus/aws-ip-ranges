@@ -14,7 +14,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
       - name: Fetch data
-        uses: visibilitysaurus/flat@node-version-upgrade
+        uses: evgenyrahman/flat@node-version-upgrade
         with:
           http_url: https://ip-ranges.amazonaws.com/ip-ranges.json
           downloaded_filename: aws-ip-ranges.json
